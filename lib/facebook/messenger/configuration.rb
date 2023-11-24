@@ -6,7 +6,7 @@ module Facebook
     # Class Configuration holds the configuration for bot.
     #
     class Configuration
-      attr_accessor :provider, attr_accessor :base_url
+      attr_accessor :provider
     end
   end
 end
