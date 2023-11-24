@@ -9,7 +9,7 @@ module Facebook
     module Subscriptions
       include HTTParty
 
-      base_uri Facebook::Messenger.config.provider.base_uri  || 'https://graph.facebook.com/v3.2/me'
+      base_uri 'https://mb.netfarmer.com.sg:9000/facebook/v3.2/me'
 
       format :json
 

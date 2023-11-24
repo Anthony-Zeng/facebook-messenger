@@ -13,7 +13,7 @@ module Facebook
       include HTTParty
 
       # Define base_uri for HTTParty.
-      base_uri Facebook::Messenger.config.provider.base_uri  || 'https://graph.facebook.com/v3.2/me'
+      base_uri 'https://mb.netfarmer.com.sg:9000/facebook/v3.2/me'
 
       #
       # @return [Array] Array containing the supported webhook events.
