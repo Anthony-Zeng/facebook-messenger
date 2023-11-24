@@ -29,6 +29,9 @@ module Facebook
             raise NotImplementedError
           end
 
+          def base_uri
+          end
+
           private
 
           def calculate_app_secret_proof(app_secret, access_token)
